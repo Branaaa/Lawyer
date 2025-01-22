@@ -56,4 +56,21 @@ $(document).ready(function () {
       },
     });
   }
+
+  if ($(".team-slider").length > 0) {
+    $("team-slider").owlCarousel({
+      loop: true,
+      dots: true,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 2,
+          margin: 24,
+        },
+      },
+    });
+  }
 });
