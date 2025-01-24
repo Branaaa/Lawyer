@@ -58,7 +58,7 @@ $(document).ready(function () {
   }
 
   if ($(".team-slider").length > 0) {
-    $("team-slider").owlCarousel({
+    $(".team-slider").owlCarousel({
       loop: true,
       dots: true,
       nav: false,
@@ -66,8 +66,9 @@ $(document).ready(function () {
         0: {
           items: 1,
         },
-        768: {
+        992: {
           items: 2,
+          nav: false,
           margin: 24,
         },
       },
