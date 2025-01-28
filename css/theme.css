@@ -13949,4 +13949,37 @@ footer .social .social-icon:hover {
   list-style: none;
   padding-left: 0;
 }
+
+.team-page-member {
+  padding: 11.4rem 0 12.7rem;
+}
+.team-page-member .team-page-member-title {
+  margin-bottom: 5.6rem;
+}
+.team-page-member .team-member {
+  margin-bottom: 5.9rem;
+}
+.team-page-member .team-member:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.team-page-member .team-member .team-member-image {
+  overflow: hidden;
+  margin-bottom: 2.2rem;
+}
+.team-page-member .team-member .team-member-image img {
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  width: 100%;
+  display: block;
+}
+.team-page-member .team-member .team-member-name a {
+  font-size: 2rem;
+  line-height: 2rem;
+  text-decoration: none;
+  color: #000;
+}
+.team-page-member .team-member .team-member-name a:hover {
+  color: #1a77cd;
+}
 /*# sourceMappingURL=theme.css.map */
