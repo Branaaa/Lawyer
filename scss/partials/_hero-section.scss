@@ -4,6 +4,10 @@
   background-position: right top;
   background-size: auto 100%;
 
+  &.contact-hero {
+    padding: 15.3rem 0 15.4rem;
+  }
+
   .hero-content {
     background-color: rgba(#fff, 0.6);
 
@@ -25,6 +29,14 @@
 
     .hero-description {
       margin-bottom: 5.9rem;
+    }
+
+    .hero-info-data {
+      a,
+      p {
+        color: #586c88;
+        text-decoration: none;
+      }
     }
   }
 }
