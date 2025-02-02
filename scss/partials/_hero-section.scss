@@ -7,6 +7,22 @@
   .hero-content {
     background-color: rgba(#fff, 0.6);
 
+    .hero-categories {
+      a {
+        line-height: 2rem;
+        font-size: 1.4rem;
+      }
+    }
+    .separator {
+      line-height: 2rem;
+      font-size: 1.4rem;
+    }
+
+    .hero-date {
+      line-height: 2rem;
+      font-size: 1.4rem;
+    }
+
     .hero-description {
       margin-bottom: 5.9rem;
     }

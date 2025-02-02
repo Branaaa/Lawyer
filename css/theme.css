@@ -13785,6 +13785,18 @@ header .navbar-nav .nav-item .nav-link {
 .hero-section .hero-content {
   background-color: rgba(255, 255, 255, 0.6);
 }
+.hero-section .hero-content .hero-categories a {
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+.hero-section .hero-content .separator {
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+.hero-section .hero-content .hero-date {
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
 .hero-section .hero-content .hero-description {
   margin-bottom: 5.9rem;
 }
@@ -14068,5 +14080,12 @@ footer .social .social-icon:hover {
   display: block;
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
+}
+
+.single-news-content {
+  padding: 8.1rem 0 13.5rem;
+}
+.single-news-content .single-news-data {
+  margin-bottom: 5.7rem;
 }
 /*# sourceMappingURL=theme.css.map */
